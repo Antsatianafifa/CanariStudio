@@ -1,0 +1,170 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body
+    {
+		font-family:Arial,sans-serif;
+    	font-size:15px;
+		background: linear-gradient(to bottom, black, transparent), url('../Images/imagecontact.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		/* overflow: hidden;*/
+	}
+         
+h1{
+	font-family:'Crete Round',serif;
+	font-size:45px;
+	color:#040308;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 20px;
+}   
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+span
+       {
+       	color: #cf732c;
+       }
+       
+/* header */
+header 
+{
+	height: 100px;
+	background-color: #44444480;
+}
+
+header h1
+      {
+      	float: left;
+        margin-top: 15px;
+		margin-left: 50px;  
+      }
+      
+.BarreNavigation
+{
+	position: absolute;
+	top: 38px;
+	right: 40px;
+}
+.BarreNavigation ul
+{
+	list-style: none;
+}
+.BarreNavigation ul li
+{
+	display: inline-flex;
+}
+.BarreNavigation a
+{
+	text-decoration: none;
+	color: #cf732c;
+	padding: 3px 10px 3px 10px;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	
+}
+.BarreNavigation a:hover
+{
+	text-decoration: underline;
+	color: #feef00;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+	display: inline-flex;
+	width: 40%;
+	margin: 50px;
+}
+
+.contact ul{
+	/* margin-left: 25%; */
+	position: absolute;
+	margin: 0 20%;
+}
+.contact ul p{
+	display: inline-flex;
+	font-size: 20px;
+	color: #feef00;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 10px;
+}
+.contact a{
+	color: inherit;
+}
+form{
+	border-left: 10px solid #cf732c;
+	padding-left: 3%;
+}
+form input, textarea{
+	display: block;
+	width: 350px;
+	height: 30px;
+	margin: 10px 10px;
+	background-color: #44444480;
+	border-radius: 5px;
+	color: #ffffffde;
+}
+textarea{
+	height: auto;
+}
+input::placeholder{
+	color: #ffffffde;
+	margin-left: 5px;
+}
+form button{
+	margin: 10px 0 5px 80%;
+	width: 100px;
+	height: 25px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 15px;
+	background-color: #feef00;
+	border-style: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/* footer */
+footer
+{
+	position: absolute;
+	bottom: 0;
+	height: 130px;
+	width: 100%;
+	background-color: #44444480;
+}
+
+footer h1
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.copyright
+{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-right: 20px;
+	color: #fff;
+
+}
+
+
+
+

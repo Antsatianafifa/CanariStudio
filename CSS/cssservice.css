@@ -1,0 +1,192 @@
+/* General */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+    {
+		font-family:Arial,sans-serif;
+    	font-size:15px;
+		background: linear-gradient(to bottom, black, transparent), #444;
+		background-repeat: no-repeat;
+		/* background-size: cover; */
+	}
+         
+h1{
+	font-family:'Crete Round',serif;
+	font-size:45px;
+	color:#040308;
+}
+        
+p
+{
+	color: #040308;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+span
+       {
+       	color: #cf732c;
+       }
+       
+/* header */
+header 
+{
+	height: 100px;
+	background-color: #44444480;
+}
+
+header h1
+      {
+      	float: left;
+        margin-top: 15px;
+		margin-left: 50px;  
+      }
+      
+.BarreNavigation
+{
+	position: absolute;
+	top: 38px;
+	right: 40px;
+}
+.BarreNavigation ul
+{
+	list-style: none;
+}
+.BarreNavigation ul li
+{
+	display: inline-flex;
+}
+.BarreNavigation a
+{
+	text-decoration: none;
+	color: #cf732c;
+	padding: 3px 10px 3px 10px;
+	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	
+}
+.BarreNavigation a:hover
+{
+	text-decoration: underline;
+	color: #feef00;
+	font-family: 'Courier New', Courier, monospace;
+}
+/* section */
+section
+{
+	margin-bottom: 20px;
+	text-align: center;
+}
+section h2{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	padding-top: 20px;
+}
+section h3
+{
+	font-size: 45px;
+	font-style: italic;
+	color: #a70515;
+	font-family: 'Courier New', Courier, serif;
+	text-transform: uppercase;
+	margin: 20px 20px;
+}
+
+section ul
+{
+	display: inline-flex;
+	text-align: center;
+}
+section ul li{
+	margin: auto;
+	width: 30%;
+}
+.service p
+{
+	font-size: x-large;
+	text-shadow: 5px 5px 5px #fff;
+}
+
+
+.repet
+{
+	background-image: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.712)), url(../Images/repet.jpg);
+	background-repeat: no-repeat;
+	height: 280px;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.repet h3
+{
+	padding-top: 60px;
+}
+
+.instrumental
+{
+	background-image:  linear-gradient(to bottom, white, transparent), url(../Images/instrumental.jpg);
+	background-repeat: no-repeat;
+	height: 280px;
+	border-radius: 5px;
+}
+
+.instrumental h3
+{
+	padding-top: 20px;
+}
+.enregistrement
+{
+	background-image: url(../Images/enregistrement.jpg);
+	background-repeat: no-repeat;
+	height: 280px;
+	border-radius: 5px;
+}
+
+.enregistrement h3
+{
+	padding-top: 60px;
+}
+
+/* footer */
+footer
+{
+	position: absolute;
+	bottom: 0;
+	height: 130px;
+	width: 100%;
+	background-color: #44444480;
+}
+
+footer h1
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.copyright
+{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-right: 20px;
+	color: #fff;
+
+}
+
+
+
+

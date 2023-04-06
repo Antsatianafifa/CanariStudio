@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+            <head>
+                       <title>Réservation</title>
+                       <link href="../CSS/cssreservation.css" rel="stylesheet">
+                       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       <meta charset="utf-8"/>
+            </head>
+            <body>
+                <header>
+                    <div>
+                           <h1>Canari Studio<span>✔</span>
+                           </h1>
+                    </div>    
+                     <div class="BarreNavigation">
+                              <ul>
+                                     <li><a href="index.html">ACCEUIL</a></li>
+                                     <li><a href="service.html">SERVICES</a></li>
+                                     <li><a href="reservation.html">RESERVATION</a></li>
+                                     <li><a href="contact.html">CONTACT</a></li>
+                              </ul>
+
+                     </div>  
+            </header>
+            <section>
+                <div>
+                    <h2>Réserver votre date dès maintenant!</h2>
+                    <p>A partir de cette formulaire, vous pouvez faire une reservation en ligne. N'hésitez pas à la remplissez!</p>
+                </div>
+            </section>
+            <section>
+                <div class="formulaire">
+                	<form>
+                            <label for="nom">Nom:</label>
+                        <input id="nom" type="text" name="nom" placeholder="Prénom ou nom du groupe">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="text" name="email" placeholder="Adresse e-mail">
+                        <label for="phone">Télephone:</label>
+                        <input id="phone" type="text" name="phone" placeholder="Téléphone mobile">
+                    <label for="projet">Projet</label>
+                    <select name="projet" id="projet">
+                                    <option value="projet">Enregistrement</option>       
+                                    <option value="projet">Création instrumental</option>
+                                    <option value="projet" id="repetition">Répétition</option>
+                    </select>
+                        <label for="date">Date:</label>
+                        <input id="date" type="text" name="date" placeholder="Date à réserver">
+                        <label for="heure">Heure:</label>
+                        <input id="heure" type="text" name="heure" placeholder="Debut de la seance">
+                        <div class="duree">
+                            <label for="durée">Durée:</label>
+                            <input id="durée" type="text" name="durée" placeholder="Durée de la seance">
+                        </div>
+                    </form>
+                    <div class="bouttonvalidation">    
+                           <form>
+                   	            <ul>
+                                    <li><button type="reset">Annuler</button></li>
+                                    <li><button type="submit">Valider</button></li>
+                                </ul>
+                          </form>
+                   </div>
+                    	
+                </div>
+            </section>
+                <footer>
+                    <div>
+                        <h1>Canari Studio<span class="grenat">✔</span></h1>
+                        <div class="copyright">© Copyright 2022. Tous droits réservés.</div>
+                    </div>
+                </footer>
+            <script src="myScript.js"></script>
+</html>
